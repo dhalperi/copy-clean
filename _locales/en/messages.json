@@ -5,12 +5,12 @@
     },
 
     "extDesc": {
-        "message": "Right click >> copy link clean (copies the useful part of URLs on popular websites)",
+        "message": "Right click >> Copy Clean Link (copies the useful part of URLs on popular websites)",
         "description": "Extension description."
     },
 
     "contextMenu_command_menu_clean" : {
-        "message" : "Copy Link Clean",
+        "message" : "Copy Clean Link",
         "description": "Context menu command to copy a clean version of the link."
     }
 }
