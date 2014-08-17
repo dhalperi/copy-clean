@@ -1,0 +1,20 @@
+{
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__",
+  "version": "0.1",
+  "default_locale": "en",
+
+  "manifest_version": 2,
+
+  "icons": {
+    "48"  : "diagram-icon48.png",
+    "128" : "diagram-icon128.png"
+  },
+  "permissions": [
+    "clipboardWrite",
+    "contextMenus"
+  ],
+  "background": {
+    "page": "background.html"
+  }
+}

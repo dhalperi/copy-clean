@@ -1,0 +1,16 @@
+{
+    "extName": {
+        "message": "Copy Clean",
+        "description": "Extension name."
+    },
+
+    "extDesc": {
+        "message": "Right click >> copy link clean (copies the useful part of URLs on popular websites)",
+        "description": "Extension description."
+    },
+
+    "contextMenu_command_menu_clean" : {
+        "message" : "Copy Link Clean",
+        "description": "Context menu command to copy a clean version of the link."
+    }
+}
