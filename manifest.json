@@ -6,9 +6,12 @@
 
   "manifest_version": 2,
 
+  "author": "Daniel Halperin",
+  "short_name": "Copy Clean",
+
   "icons": {
-    "48"  : "diagram-icon48.png",
-    "128" : "diagram-icon128.png"
+    "48": "diagram-icon48.png",
+    "128": "diagram-icon128.png"
   },
   "permissions": [
     "clipboardWrite",
