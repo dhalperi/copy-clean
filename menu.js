@@ -14,9 +14,6 @@ function clean(url) {
   }
   pattern = "https://www.google.com/url?";
   if (startsWith(url, pattern)) {
-    console.log(find_arg("url", url));
-    console.log('escaped: ');
-    console.log(decodeURIComponent(find_arg("url", url)));
     return decodeURIComponent(find_arg("url", url));
   }
 
@@ -83,8 +80,3 @@ chrome.runtime.onInstalled.addListener(function () {
       )
   })
 });
-
-
-function log(message) {
-  document.getElementById("status").innerHTML = "<div class='message'>" + message + "</div>" + document.getElementById("status").innerHTML;
-}
